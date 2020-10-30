@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  reverse.cpp
+  Win32Project1.cpp
+     Creating library C:\Users\aduserb\Desktop\dll-shell\dns-exe-persistance-master\dns-plugindll-vcpp\Release\Win32Project1.lib and object C:\Users\aduserb\Desktop\dll-shell\dns-exe-persistance-master\dns-plugindll-vcpp\Release\Win32Project1.exp
+Win32Project1.exp : error LNK2001: unresolved external symbol "int __cdecl DnsPluginInitialize(void *,void *)" (?DnsPluginInitialize@@YAHPEAX0@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl DnsPluginInitialize(void *,void *)" (?DnsPluginInitialize@@YAHPAX0@Z)
+Win32Project1.exp : error LNK2001: unresolved external symbol "int __cdecl DnsPluginQuery(void *,void *,void *,void *)" (?DnsPluginQuery@@YAHPEAX000@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl DnsPluginQuery(void *,void *,void *,void *)" (?DnsPluginQuery@@YAHPAX000@Z)
+C:\Users\aduserb\Desktop\dll-shell\dns-exe-persistance-master\dns-plugindll-vcpp\Release\Win32Project1.dll : fatal error LNK1120: 2 unresolved externals
